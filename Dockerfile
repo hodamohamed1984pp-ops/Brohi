@@ -13,5 +13,4 @@ COPY config.yml /app/config.yml
 EXPOSE 19132/udp
 EXPOSE 19132/tcp
 
-# تشغيل أمرClaim صريح
-CMD playit claim & java -Xmx1024M -jar Geyser-Standalone.jar
+CMD playit secret generate || true; playit & java -Xmx1024M -jar Geyser-Standalone.jar
