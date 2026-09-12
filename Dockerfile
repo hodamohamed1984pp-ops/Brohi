@@ -15,5 +15,5 @@ COPY config.yml /app/config.yml
 EXPOSE 19132/udp
 EXPOSE 19132/tcp
 
-# تشغيل التشغيل المباشر
+# تشغيل Playit باستخدام المفتاح مع Geyser
 CMD playit --secret "$PLAYIT_SECRET_KEY" & java -Xmx1024M -jar Geyser-Standalone.jar
