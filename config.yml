@@ -9,7 +9,7 @@ bedrock:
 remote:
   address: Progamer-Smp.aternos.me
   port: 29801
-  auth-type: online # استخدم offline إذا كان سيرفر Aternos لديك مكرك (Cracked)
+  auth-type: online # غيّرها إلى offline إذا كان سيرفر Aternos لديك مكرك (Cracked)
   use-proxy-protocol: false
 
 metrics:
@@ -28,4 +28,3 @@ passthrough-player-counts: true
 legacy-ping-passthrough: false
 ping-passthrough-interval: 3
 forward-hostname: false
-
