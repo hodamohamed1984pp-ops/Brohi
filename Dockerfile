@@ -13,6 +13,4 @@ COPY config.yml /app/config.yml
 EXPOSE 19132/udp
 EXPOSE 19132/tcp
 
-# تشغيل playit في وضع stdout المباشر لاستخراج الرابط تلقائياً
-CMD playit
-
+CMD playit setup
