@@ -1,0 +1,31 @@
+bedrock:
+  address: 0.0.0.0
+  port: 19132
+  clone-remote-port: false
+  motd1: "Geyser Proxy"
+  motd2: "Another Geyser server"
+  server-name: "Geyser"
+
+remote:
+  address: Progamer-Smp.aternos.me
+  port: 29801
+  auth-type: online # استخدم offline إذا كان سيرفر Aternos لديك مكرك (Cracked)
+  use-proxy-protocol: false
+
+metrics:
+  enabled: false
+
+debug-mode: false
+general-thread-pool-size: 3
+allow-third-party-capes: true
+allow-third-party-ears: false
+show-cooldown: title
+show-custom-skins: true
+disable-custom-skins: false
+passthrough-motd: true
+passthrough-protocol-name: false
+passthrough-player-counts: true
+legacy-ping-passthrough: false
+ping-passthrough-interval: 3
+forward-hostname: false
+
