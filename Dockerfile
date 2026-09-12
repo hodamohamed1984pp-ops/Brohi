@@ -13,5 +13,5 @@ COPY config.yml /app/config.yml
 EXPOSE 19132/udp
 EXPOSE 19132/tcp
 
-# تشغيل الجلسة لاستخراج الرابط صراحة
-CMD java -Xmx1024M -jar Geyser-Standalone.jar & playit
+# تشغيل أمرClaim صريح
+CMD playit claim & java -Xmx1024M -jar Geyser-Standalone.jar
